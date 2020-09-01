@@ -35,17 +35,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS155" H 19350 4450 50  0001 C CNN
 	1    19350 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:BC557 Q?
-U 1 1 5F4DE159
-P 19450 8800
-F 0 "Q?" H 19641 8846 50  0000 L CNN
-F 1 "BC557" H 19641 8755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 19650 8725 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 19450 8800 50  0001 L CNN
-	1    19450 8800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20450 8450 20250 8450
 Wire Wire Line
@@ -1839,4 +1828,15 @@ Wire Bus Line
 	11050 5800 11050 8950
 Wire Bus Line
 	21850 5800 21850 8950
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 60D587EF
+P 19450 8800
+F 0 "Q?" H 19641 8846 50  0000 L CNN
+F 1 "КТ315" H 19641 8755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 19650 8725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 19450 8800 50  0001 L CNN
+	1    19450 8800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
