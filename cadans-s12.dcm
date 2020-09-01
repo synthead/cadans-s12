@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP КР1533ИД4
+D Dual 2 to 4 lines Decoder/Demultiplexer
+K TTL DECOD8 DECOD4 DEMUX4 DEMUX8 DEMUX DECOD
+F http://www.ti.com/lit/gpn/sn74LS155
+$ENDCMP
+#
+$CMP КР572ПВ1
+F https://lib.voltradio.ru/572pv1.pdf
+$ENDCMP
+#
+$CMP УД708
+D Operational Amplifier, DIP-8/TO-99-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm741.pdf
+$ENDCMP
+#
+#End Doc Library
